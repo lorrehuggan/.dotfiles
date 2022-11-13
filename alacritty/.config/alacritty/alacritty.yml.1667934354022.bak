@@ -1,0 +1,60 @@
+# Window
+window:
+  opacity: 0.95
+  padding:
+    x: 18
+    y: 16
+  dynamic_padding: false
+  decorations: None
+
+# Colors (Gruvbox dark)
+# Colors (Poimandres)
+colors:
+  name: DWM rob
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#151515"
+    red: "#bf7979"
+    green: "#97b26b"
+    yellow: "#cdcda1"
+    blue: "#4a5463"
+    magenta: "#9c3885"
+    cyan: "#88aadd"
+    white: "#ffffff"
+  bright:
+    black: "#505450"
+    red: "#f4a45f"
+    green: "#c5f779"
+    yellow: "#ffffaf"
+    blue: "#7d8794"
+    magenta: "#e628ba"
+    cyan: "#99ccff"
+    white: "#dedede"
+# Font
+font:
+  normal:
+    family: Hack
+    style: Regular
+
+  bold:
+    family: Hack
+    style: Bold
+
+  italic:
+    family: Hack
+    style: Italic
+
+  size: 12.0
+
+#scrolling
+scrolling:
+  # maximum number of lines in the scrollback buffer. Specifying '0' will
+  # disable scrolling.
+  history: 10000
+theme: Dwmrob
